@@ -39,7 +39,7 @@ lib/
 Projeyi klonlayın:
 
 bash
-git clone https://github.com/kullaniciadi/recipe-app.git
+git clone https://github.com/isaulutepe/Recipe-App
 Proje dizinine gidin:
 
 bash
