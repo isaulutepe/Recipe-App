@@ -3,7 +3,7 @@ Flutter ile geliştirilmiş basit bir yemek tarifi uygulaması. API'den JSON ver
 
 📱 Ekran Görüntüleri
 Ana Sayfa	Favoriler	Detay
-![HomePage](screenShots/anasayfa.png)  ![DetailPage](screenShots/detail.png) ![Favorites](screenshots/favorites.png)
+![HomePage](my_project/screenShots/Ekran%20görüntüsü%202026-11-13%20124120.png)  ![DetailPage](my_project/screenShots/Ekran%20görüntüsü%202026-11-13%20124148.png) ![Favorites](my_project/screenShots/Ekran%20görüntüsü%202026-11-13%20124139.png)
 
 ✨ Özellikler
 🌐 API Entegrasyonu: JSON formatındaki tarif verilerini API'den çeker
