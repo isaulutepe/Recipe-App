@@ -1,17 +1,63 @@
-# my_project
+🍽️ Recipe App - Flutter
+Flutter ile geliştirilmiş basit bir yemek tarifi uygulaması. API'den JSON verileri çekerek tarifleri listeler, favorilere ekleme ve detay görüntüleme özelliklerini sunar.
 
-A new Flutter project.
+📱 Ekran Görüntüleri
+Ana Sayfa	Favoriler	Detay
+![HomePage](screenShots/anasayfa.png)  ![DetailPage](screenShots/detail.png) ![Favorites](screenshots/favorites.png)
 
-## Getting Started
+✨ Özellikler
+🌐 API Entegrasyonu: JSON formatındaki tarif verilerini API'den çeker
 
-This project is a starting point for a Flutter application.
+📋 Ana Sayfa: Tüm tarifleri liste halinde gösterir
 
-A few resources to get you started if this is your first Flutter project:
+⭐ Favoriler: Beğendiğiniz tarifleri favorilere ekleyip ayrı bir sayfada görüntüleyebilirsiniz
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+🔍 Detay Sayfası: Tariflere tıklayarak detaylı bilgilere (malzemeler, yapılışı vb.) erişebilirsiniz
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🎨 Modern Arayüz: Kullanıcı dostu ve sade tasarım
+
+🛠️ Kullanılan Teknolojiler
+Flutter - UI framework
+
+Dart - Programlama dili
+
+HTTP - API istekleri için
+
+JSON - Veri formatı
+
+📂 Proje Yapısı
+text
+lib/
+├── models/          # Veri modelleri
+├── views/         # Uygulama sayfaları
+│   ├── homeView.dart
+│   ├── favorites_view.dart
+│   └── recipe_detail_view.dart
+├── services/        # API servisleri
+└── main.dart        # Uygulama giriş noktası
+🚀 Kurulum
+Projeyi klonlayın:
+
+bash
+git clone https://github.com/kullaniciadi/recipe-app.git
+Proje dizinine gidin:
+
+bash
+cd recipe-app
+Bağımlılıkları yükleyin:
+
+bash
+flutter pub get
+Uygulamayı çalıştırın:
+
+bash
+flutter run
+
+🎯 Kullanım
+Uygulama açıldığında ana sayfada API'den çekilen tarifler listelenir
+
+Herhangi bir tarife tıklayarak detay sayfasına geçebilirsiniz
+
+Favorilere eklemek istediğiniz tariflerin yanındaki favori butonuna tıklayabilirsiniz
+
+Favoriler sekmesinden eklediğiniz tarifleri görüntüleyebilirsiniz
